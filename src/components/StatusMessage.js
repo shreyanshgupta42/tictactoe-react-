@@ -14,6 +14,7 @@ const StatusMessage = ({ winner, current }) => {
         <>
           Winner is 
           {/* below is dynamic class under some conditions */}
+          {' '}
           <span className={winner === 'X' ? 'text-green' : 'text-orange'}>
             {winner}
           </span>
